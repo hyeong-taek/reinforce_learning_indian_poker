@@ -1,0 +1,10 @@
+# Goal
+float32 approach_z   # 집기 전 상방 접근 오프셋(mm) 예: 20.0
+float32 grip_width   # RG2 목표 폭(um) 예: 600
+---
+# Result
+bool ok
+string message
+---
+# Feedback
+float32 progress

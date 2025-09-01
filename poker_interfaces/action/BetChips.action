@@ -1,0 +1,10 @@
+# Goal
+int32 amount         # 1 | 2 | 3  (요구사항대로 +1/+2/+3 칩)
+---
+# Result
+bool ok
+string message
+---
+# Feedback
+string stage         # "move" | "pick" | "place"
+float32 progress

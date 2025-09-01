@@ -1,0 +1,11 @@
+# Goal
+string name        # "home" | "show" | "gesture_view" | "bet" | "card_grip" | "card_detect"
+float32 velocity   # optional, 0이면 기본값 사용
+float32 acc        # optional, 0이면 기본값 사용
+---
+# Result
+bool ok
+string message
+---
+# Feedback
+float32 progress   # 0..1

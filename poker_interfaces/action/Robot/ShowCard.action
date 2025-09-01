@@ -1,0 +1,9 @@
+# Goal
+float32 timeout_s    # 옵션(사용 안 해도 됨)
+---
+# Result
+bool ok
+string message
+---
+# Feedback
+float32 progress
